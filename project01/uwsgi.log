@@ -1,0 +1,66 @@
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Jun  9 15:02:28 2020] ***
+compiled with version: 7.5.0 on 09 June 2020 14:40:36
+os: Linux-4.15.0-1065-aws #69-Ubuntu SMP Thu Mar 26 02:17:29 UTC 2020
+nodename: ip-172-31-3-17
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/app/django/project01
+your processes number limit is 3840
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/app/django/project01/project01.sock fd 3
+setuid() to 1000
+Python version: 3.6.9 (default, Apr 18 2020, 01:56:04)  [GCC 8.4.0]
+PEP 405 virtualenv detected: /home/ubuntu/app/django/project01/myvenv
+Set PythonHome to /home/ubuntu/app/django/project01/myvenv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5603c9cb9ed0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1239368 bytes (1210 KB) for 16 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5603c9cb9ed0 pid: 15393 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 15393)
+spawned uWSGI worker 1 (pid: 15400, cores: 1)
+spawned uWSGI worker 2 (pid: 15401, cores: 1)
+spawned uWSGI worker 3 (pid: 15402, cores: 1)
+spawned uWSGI worker 4 (pid: 15403, cores: 1)
+spawned uWSGI worker 5 (pid: 15404, cores: 1)
+spawned uWSGI worker 6 (pid: 15405, cores: 1)
+spawned uWSGI worker 7 (pid: 15406, cores: 1)
+spawned uWSGI worker 8 (pid: 15407, cores: 1)
+spawned uWSGI worker 9 (pid: 15408, cores: 1)
+spawned uWSGI worker 10 (pid: 15409, cores: 1)
+spawned uWSGI worker 11 (pid: 15410, cores: 1)
+spawned uWSGI worker 12 (pid: 15411, cores: 1)
+spawned uWSGI worker 13 (pid: 15413, cores: 1)
+spawned uWSGI worker 14 (pid: 15415, cores: 1)
+spawned uWSGI worker 15 (pid: 15416, cores: 1)
+spawned uWSGI worker 16 (pid: 15417, cores: 1)
+{address space usage: 114544640 bytes/109MB} {rss usage: 32702464 bytes/31MB} [pid: 15402|app: 0|req: 1/1] 125.12.137.46 () {46 vars in 880 bytes} [Wed Jun 10 00:15:13 2020] GET / => generated 16351 bytes in 18 msecs (HTTP/1.1 200) 4 headers in 123 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 114544640 bytes/109MB} {rss usage: 32702464 bytes/31MB} [pid: 15403|app: 0|req: 1/2] 125.12.137.46 () {42 vars in 787 bytes} [Wed Jun 10 00:15:14 2020] GET / => generated 16351 bytes in 14 msecs (HTTP/1.1 200) 4 headers in 123 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 114544640 bytes/109MB} {rss usage: 32702464 bytes/31MB} [pid: 15401|app: 0|req: 1/3] 125.12.137.46 () {42 vars in 787 bytes} [Wed Jun 10 00:15:15 2020] GET / => generated 16351 bytes in 14 msecs (HTTP/1.1 200) 4 headers in 123 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 114544640 bytes/109MB} {rss usage: 32702464 bytes/31MB} [pid: 15404|app: 0|req: 1/4] 125.12.137.46 () {40 vars in 756 bytes} [Wed Jun 10 00:15:22 2020] GET / => generated 16351 bytes in 14 msecs (HTTP/1.1 200) 4 headers in 123 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 114544640 bytes/109MB} {rss usage: 32702464 bytes/31MB} [pid: 15405|app: 0|req: 1/5] 125.12.137.46 () {40 vars in 748 bytes} [Wed Jun 10 00:15:31 2020] GET / => generated 16351 bytes in 14 msecs (HTTP/1.1 200) 4 headers in 123 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 114544640 bytes/109MB} {rss usage: 32702464 bytes/31MB} [pid: 15406|app: 0|req: 1/6] 125.12.137.46 () {42 vars in 779 bytes} [Wed Jun 10 00:15:54 2020] GET / => generated 16351 bytes in 18 msecs (HTTP/1.1 200) 4 headers in 123 bytes (2 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 114544640 bytes/109MB} {rss usage: 32702464 bytes/31MB} [pid: 15407|app: 0|req: 1/7] 125.12.137.46 () {42 vars in 779 bytes} [Wed Jun 10 00:15:57 2020] GET / => generated 16351 bytes in 15 msecs (HTTP/1.1 200) 4 headers in 123 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 114544640 bytes/109MB} {rss usage: 32702464 bytes/31MB} [pid: 15408|app: 0|req: 1/8] 125.12.137.46 () {42 vars in 779 bytes} [Wed Jun 10 00:30:50 2020] GET / => generated 16351 bytes in 15 msecs (HTTP/1.1 200) 4 headers in 123 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 114544640 bytes/109MB} {rss usage: 32702464 bytes/31MB} [pid: 15409|app: 0|req: 1/9] 125.12.137.46 () {42 vars in 779 bytes} [Wed Jun 10 00:39:12 2020] GET / => generated 16351 bytes in 15 msecs (HTTP/1.1 200) 4 headers in 123 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 114544640 bytes/109MB} {rss usage: 32702464 bytes/31MB} [pid: 15410|app: 0|req: 1/10] 54.238.97.66 () {40 vars in 755 bytes} [Wed Jun 10 10:41:14 2020] GET / => generated 16351 bytes in 14 msecs (HTTP/1.1 200) 4 headers in 123 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
