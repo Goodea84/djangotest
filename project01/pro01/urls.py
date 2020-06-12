@@ -20,4 +20,6 @@ from . import views
 urlpatterns = [
     path('adn/', admin.site.urls),
     path('', views.index),
+    path('crud/', views.crud),
+    path('insert/', views.insert),
 ]

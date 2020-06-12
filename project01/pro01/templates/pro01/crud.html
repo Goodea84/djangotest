@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <!-- 합쳐지고 최소화된 최신 CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+        <!-- 부가적인 테마 -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+        <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    </head>
+
+
+    <body>
+      <h1>django Test CRUD</h1>
+      <ul>
+        <li>Create(Insert)</li>
+            <form class="form-inline" action="/insert/" method="POST">
+                <div class="form-group">
+                <label for="exampleInputName2">Name</label>
+                <input type="text" class="form-control" name="name" placeholder="Jang MinSik">
+                </div>&nbsp;&nbsp;
+                <div class="form-group">
+                <label for="exampleInputEmail2">Email</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="msik0604@example.com">
+                </div>&nbsp;&nbsp;
+                <div class="form-group">
+                    <label for="exampleInputArea2">Area</label>
+                    <input type="text" class="form-control" id="area" name="area" placeholder="JAPAN">
+                    </div>&nbsp;&nbsp;
+                {% csrf_token %}
+                <button type="submit" class="btn btn-default" value="Submit">Send invitation</button>
+            </form>
+            </p></p>
+        <li>Read(Select)</li>
+            </p></p>
+        <li>Update</li>
+            </p></p>
+        <li>Ddelete</li>
+            </p></p>
+        </ul>
+
+    </body>
+</html>
